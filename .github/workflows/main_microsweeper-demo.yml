@@ -49,5 +49,5 @@ jobs:
       with:
         app-name: 'microsweeper-demo'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2C7460FC2F444523B0D18DE31DB6A299 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_2abcc7da129d4d9e9bd6d74308ba7be1 }}
         package: '*.jar'
